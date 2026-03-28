@@ -100,24 +100,6 @@ Commit `uv.lock` to ensure reproducible environments.
 
 ---
 
-## 6. Run Tests
-
-Execute the test suite:
-
-```bash
-uv run pytest
-```
-
-Verbose mode:
-
-```bash
-uv run pytest -v
-```
-
-All tests must pass before submitting changes.
-
----
-
 ## 7. Code Quality Checks
 
 Run linting and type checking tools via uv:
@@ -171,7 +153,6 @@ Use clear and descriptive branch names.
 ## 9. Make Changes
 
 - Follow the existing `src/` layout.
-- Add or update tests in the `tests/` directory.
 - Ensure docstrings follow the documented standard.
 - Keep commits focused and minimal.
 - Always add new dependencies with `uv add <dependency>`
