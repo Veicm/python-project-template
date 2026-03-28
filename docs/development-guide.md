@@ -100,7 +100,7 @@ Commit `uv.lock` to ensure reproducible environments.
 
 ---
 
-## 7. Code Quality Checks
+## 6. Code Quality Checks
 
 Run linting and type checking tools via uv:
 
@@ -113,7 +113,7 @@ Fix all reported issues before committing.
 
 ---
 
-## 8. Set Up Pre-Commit Hooks
+## 7. Set Up Pre-Commit Hooks
 
 This project uses pre-commit as defined in `.pre-commit-config.yaml`.
 
@@ -138,7 +138,7 @@ Pre-commit must pass before pushing changes.
 
 ---
 
-## 9. Create a Feature Branch
+## 8. Create a Feature Branch
 
 Never work directly on `main`.
 
@@ -223,7 +223,7 @@ Artifacts will be created in the `dist/` directory.
 
 ---
 
-## 16. Files That Must Not Be Committed
+## 15. Files That Must Not Be Committed
 
 Ensure the following are ignored:
 
